@@ -1,0 +1,119 @@
+.modalWindow {
+    height: 100vh;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    font-size: 24px;
+}
+
+.modal__info {
+    width: 530px;
+    height: 307px;
+    padding: 20px;
+    border-radius: 12px;
+    background: rgb(34, 32, 32);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.modal__help {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.qust {
+    font-size: 14px;
+    color: white;
+    margin-right: 10px;
+}
+
+.sup {
+    font-size: 14px;
+    color: #919191;;
+}
+
+.modal__wallet{
+    display: flex;
+    cursor: pointer;
+    background: #353637;
+    border-radius: 12px;
+    height: 93px;
+    width: 467px;
+    background-image: url('./3\ 1.png');
+    background-repeat: no-repeat;
+    background-position: 6% 50%;
+}
+
+.wallet__name {
+    color: #fff;
+}
+
+.wallet__discription {
+    color: #919191;
+    font-size: 14px;
+}
+
+.modal__walletName {
+    margin-left: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1462px) {
+    .modal__info {
+        width: 400px;
+        height: 600px;
+    }
+
+    .modal__wallet {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 409px) {
+    .modal__info {
+        width: 300px;
+        height: 400px;
+    }
+
+    .title {
+        font-size: 24px;
+        color: #fff;
+        font-weight: 700;
+    }
+
+    .modal__wallet {
+        width: 250px;
+    }
+
+    .input,
+    input {
+        width: 200px;
+    }
+
+    .drop {
+        max-width: 200px;
+    }
+    .discription{
+        width: 200px;
+    }
+
+    .registration{
+        width: 200px;
+        margin: 0 auto;
+    }
+}
